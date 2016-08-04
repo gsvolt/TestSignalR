@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
+    <Content Include="index.html" />
     <Content Include="Scripts\jquery-1.6.4.js" />
     <Content Include="Scripts\jquery-1.6.4.min.js" />
     <Content Include="Scripts\jquery.signalR-2.2.1.js" />
@@ -117,6 +118,7 @@
   <ItemGroup>
     <Compile Include="ChatHub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
